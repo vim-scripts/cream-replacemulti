@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1187
+
+
+This script replaces text across multiple files. It is a pure Vim implementation and does not depend on external utilties that do similar things (like sed, grep, cat, or Find). As such, it is cross-platform and has been tested on both Windows95/XP and Linux.
+
+Replace Multi is intended to be used in the GUI version of Vim, gVim. It presents a rather hackish dialog to take user input for the Find, Replace, and Path components and present options for Case Sensitivity and the use of Vim's Regular Expressions. (Some day in the future it might be adapted to work from the command line without a dialog.)
+
+In testing, Replace Multi performed a replacment operation on 1000 small files in 25 seconds. (2.80Ghz Pentium 4 Windows XP machine with 1Gb of RAM.) Obviously Vim and system settings could vary this greatly, but as a benchmark this is about 40 files/second.
+
+
+This is one of many custom utilities and functions for gVim from the Cream project (http://cream.sourceforge.net), a configuration of Vim for those of us familiar with Apple and Windows software.
+
+
